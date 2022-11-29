@@ -12,7 +12,7 @@ customers = Table(
 
 conn = engine.connect()
 conn.execute(customers.insert(),[
-    {'address': '', 'Phone Number' : '', 'Card Number' :''},
+    {'address': '125 e leaf rd', 'Phone Number' : '', 'Card Number' :''},
     {'address': '', 'Phone Number' : '', 'Card Number' :''},
     {'address': '', 'Phone Number' : '', 'Card Number' :''},
     {'address': '', 'Phone Number' : '', 'Card Number' :''},
